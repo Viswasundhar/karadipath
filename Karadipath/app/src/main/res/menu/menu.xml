@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="@string/push_local_notification" />
+
+        <item
+            android:id="@+id/nav_product"
+            android:icon="@drawable/ic_shop_black_24dp"
+            android:title="@string/product_list" />
+    </group>
+</menu>
